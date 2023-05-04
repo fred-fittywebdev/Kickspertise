@@ -1,0 +1,108 @@
+const products = [
+	{
+		_id: "1",
+		name: "Nike Romaleos 4 SE",
+		image: "/images/romaleos.png",
+		description:
+			"Les Nike Romaleos 4 SE sont très résistantes et stables, et ont une base plate et large qui offre un soutien parfait lors des séances d'haltérophilie les plus exigeantes. Les sangles réglables enveloppent votre pied en toute sécurité pour maintenir un ajustement parfait et confortable, que vous soyez à la salle de sport ou sur la scène mondiale.",
+		brand: "Apple",
+		category: "Electronics",
+		price: 209.99,
+		countInStock: 10,
+		rating: 4.5,
+		numReviews: 12,
+	},
+	{
+		_id: "2",
+		name: "Nike Metcon 8",
+		image: "/images/metcon8.png",
+		description:
+			"Notre modèle prêt pour l'entraînement est doté d'une tige plus légère et plus respirante que notre édition précédente pour répondre à nos normes de durabilité et de confort afin que vous puissiez faire du cardio, faire de la puissance dans vos ascenseurs et dominer vos entraînements.",
+		brand: "Apple",
+		category: "Electronics",
+		price: 209.99,
+		countInStock: 7,
+		rating: 4.0,
+		numReviews: 8,
+	},
+	{
+		_id: "3",
+		name: "Nike Metcon 8 FlyEase",
+		image: "/images/flyease.png",
+		description:
+			"Cette version présente un talon contracté pour vous aider à vous lever les mains libres. Il récupère ensuite sa forme pour maintenir un ajustement sûr.",
+		brand: "Cannon",
+		category: "Electronics",
+		price: 139.99,
+		countInStock: 5,
+		rating: 3,
+		numReviews: 12,
+	},
+	{
+		_id: "4",
+		name: "Nike Metcon 8 Premium",
+		image: "/images/metcon8-premium.png",
+		description:
+			"Notre modèle d'entraînement idéal comprend une tige plus légère et plus respirante que notre édition précédente pour répondre à nos normes de durabilité et de confort.",
+		brand: "Sony",
+		category: "Electronics",
+		price: 144.99,
+		countInStock: 11,
+		rating: 5,
+		numReviews: 12,
+	},
+	{
+		_id: "5",
+		name: "Nike Zoom Turbo 2",
+		image: "/images/zoom.png",
+		description:
+			"La Nike Zoom Metcon Turbo 2 ajoute une poussée d'adrénaline à votre entraînement quotidien. Il combine stabilité et réactivité dans un ensemble léger pour que vous puissiez vous déplacer rapidement pendant les entraînements en circuit, les intervalles à haute intensité sur le tapis roulant ou un entraînement cardio sur le chemin du retour, tout ce que vous voulez.",
+		brand: "Logitech",
+		category: "Electronics",
+		price: 159.99,
+		countInStock: 7,
+		rating: 3.5,
+		numReviews: 10,
+	},
+	{
+		_id: "6",
+		name: "Nike Metcon 7",
+		image: "/images/metcon7.png",
+		description:
+			"La Nike Metcon 7 est idéale pour la musculation, offrant un style plus solide et plus stable que les versions précédentes.",
+		brand: "Amazon",
+		category: "Electronics",
+		price: 77.97,
+		countInStock: 0,
+		rating: 4,
+		numReviews: 12,
+	},
+	{
+		_id: "7",
+		name: "Nike Savaleos",
+		image: "/images/savaleos.png",
+		description:
+			"Les Nike Savaleos verrouillent votre pied dans une base large et plate pour vous aider à rester stable et en sécurité lorsque vous faites face à un poids lourd.",
+		brand: "Amazon",
+		category: "Electronics",
+		price: 121.47,
+		countInStock: 4,
+		rating: 4,
+		numReviews: 12,
+	},
+	{
+		_id: "8",
+		name: "Nike Motiva",
+		image: "/images/motiva.jpeg",
+		description:
+			"La Nike Motiva vous aide à traverser tout ce que la journée vous réserve à votre rythme. La semelle extérieure présente un motif unique et un design à bascule surdimensionné qui se combinent pour une conduite ultra douce, amortie et confortable.",
+		brand: "Amazon",
+		category: "Electronics",
+		price: 109.99,
+		countInStock: 7,
+		rating: 4,
+		numReviews: 12,
+	},
+];
+
+export default products;
