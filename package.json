@@ -1,0 +1,39 @@
+{
+	"name": "kickspertise",
+	"version": "1.0.0",
+	"description": "a fictionnal eCommerce made with the MERN stack",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server.js",
+		"server": "nodemon backend/server.js",
+		"client": "npm start --prefix frontend",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fred-fittywebdev/Kickspertise.git"
+	},
+	"keywords": [
+		"MERN",
+		"React",
+		"Redux",
+		"Redux",
+		"Toolkit",
+		"MongoDb"
+	],
+	"author": "Fred Guerra",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fred-fittywebdev/Kickspertise/issues"
+	},
+	"homepage": "https://github.com/fred-fittywebdev/Kickspertise#readme",
+	"dependencies": {
+		"concurrently": "^8.0.1",
+		"express": "^4.18.2",
+		"nodemon": "^2.0.22"
+	},
+	"devDependencies": {
+		"dotenv": "^16.0.3"
+	}
+}
